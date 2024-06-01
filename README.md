@@ -1,2 +1,2 @@
 # Calculator
-This is basic project.
+This is basic project..
