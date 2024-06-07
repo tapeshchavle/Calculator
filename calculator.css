@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+.outer {
+  margin: 20px;
+  height: 580px;
+  width: 350px;
+  border-radius: 20px;
+  border: 4px solid black;
+  background-color: rgb(107, 99, 99);
+}
+
+.display {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 30%;
+  width: 100%;
+  background-color: black;
+  border-bottom: 5px solid white;
+}
+.buttons {
+  height: 66.5%;
+  width: 342px;
+  position: absolute;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.btn-rows {
+  padding: 4px;
+  margin-top: 12px;
+  height: 15%;
+  width: 100%;
+
+  display: flex;
+}
+.btn:hover {
+  color: aliceblue;
+  background-color: rgb(89, 107, 107);
+}
+.btn-rows > div {
+  text-align: center;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 700;
+
+  width: 20%;
+  margin: 0 7px;
+  border-radius: 20%;
+}
+.clr1 {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.clr2 {
+  background-image: linear-gradient(rgb(168, 131, 131), rgb(233, 192, 116));
+}
+.clr3 {
+  background-color: rgb(212, 165, 77);
+}
+.clr4 {
+  background-image: radial-gradient(
+    rgb(216, 185, 45),
+    rgb(110, 110, 94),
+    rgb(19, 15, 15)
+  );
+}
+.dis1 {
+  height: 20%;
+  width: 100%;
+  background-color: rgb(197, 176, 176);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.dis2 {
+  height: 80%;
+  width: 100%;
+
+  position: relative;
+}
+.inp1 {
+  height: 40%;
+  width: 100%;
+  position: relative;
+  right: 0;
+}
+.inp2 {
+  height: 60%;
+  width: 100%;
+  background-color: yellow;
+}
+#num {
+  position: absolute;
+  right: 0;
+  padding: 0 10px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-image: linear-gradient(to right, rgb(78, 74, 74), grey);
+  text-align: right;
+  font-size: 30px;
+  color: white;
+}
+.show {
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-image: linear-gradient(to right, pink, rgb(204, 204, 58));
+  text-align: right;
+  font-size: 35px;
+}
+.theme {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.btn {
+  width: 70px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: 700;
+}
+
+/*Theme Change*/
+.tm1 {
+  background-color: rgba(82, 78, 78, 0.5);
+  color: white;
+}
+.tm2 {
+  background-image: linear-gradient(rgb(68, 61, 61), rgb(83, 64, 29));
+  color: white;
+}
+.tm3 {
+  background-color: rgb(56, 46, 27);
+  color: white;
+}
+.tm4 {
+  background-image: radial-gradient(
+    rgb(82, 74, 40),
+    rgb(73, 73, 46),
+    rgb(29, 22, 22)
+  );
+  color: white;
+}
+.otm {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(31, 11, 11));
+  height: 66.5%;
+  width: 342px;
+  position: absolute;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.tdis1 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.inptm {
+  background-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.9)
+  );
+  color: white;
+}
+.mouseblack {
+  box-shadow: 2px 4px 10px black;
+}
+.mousewhite {
+  box-shadow: 2px 4px 10px white;
+}
+/*History*/
+.history {
+  height: 66%;
+  border-bottom-left-radius: 10px;
+  width: 200px;
+  font-size: 20px;
+
+  font-weight: 700;
+  background-image: linear-gradient(
+    to right,
+    rgb(71, 56, 56),
+    rgba(233, 209, 166, 0.4)
+  );
+  text-align: center;
+  position: absolute;
+  z-index: 99;
+  overflow: auto;
+  visibility: hidden;
+}
+.add {
+  visibility: visible;
+  transition-duration: 2s;
+}
+.add:hover {
+  box-shadow: 2px 3px 10px black;
+  border-radius: 10%;
+  transform: scaleX(1.01, 1.01);
+  transition-duration: 0.3s;
+}
+
+#his {
+  padding: 2px 8px;
+  position: absolute;
+  z-index: 4;
+  border: none;
+  margin-left: 4px;
+  margin-top: 10px;
+  border-radius: 20%;
+}
