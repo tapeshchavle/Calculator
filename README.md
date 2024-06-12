@@ -1,4 +1,4 @@
-im# Calculator
+# Calculator
 
 A simple, responsive calculator web application created using HTML, CSS, and JavaScript. This project demonstrates basic arithmetic operations and showcases a clean, user-friendly interface.
 
@@ -16,11 +16,11 @@ JavaScript: For implementing the calculator's functionality and interactivity.<b
 
 # Interface
 
-  <h1>Light Interface</h1>
+  <h2>Light Interface</h2>
 <img src="./image/light.png"></img>
 <br>
 <hr>
-  <h1>Dark Interface</h1>
+  <h2>Dark Interface</h2>
   <img src="./image/dark.png"></img>
 
 # Installation
@@ -58,6 +58,6 @@ Open a pull request. <br>
 
 # Contact
 
-Name: Tapesh Chavle
+Name: Tapesh Chavle <br>
 Email: tapeshchawl@gmail.com <br>
 GitHub: tapeshchavle<br>
