@@ -1,4 +1,4 @@
-# Calculator
+im# Calculator
 
 A simple, responsive calculator web application created using HTML, CSS, and JavaScript. This project demonstrates basic arithmetic operations and showcases a clean, user-friendly interface.
 
@@ -21,7 +21,7 @@ JavaScript: For implementing the calculator's functionality and interactivity.
 <br>
 <hr>
   <h1>Dark Interface</h1>
-  <img src="./image/dark.png>
+  <img src="./image/dark.png"></img>
 
 # Installation
 
