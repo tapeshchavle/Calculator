@@ -4,15 +4,15 @@ A simple, responsive calculator web application created using HTML, CSS, and Jav
 
 # Features
 
-Basic Arithmetic Operations: Supports addition, subtraction, multiplication, and division.
-Responsive Design: Optimized for both desktop and mobile devices.
-Clear Button: Easily reset the calculator to its initial state.
+Basic Arithmetic Operations: Supports addition, subtraction, multiplication, and division.<br>
+Responsive Design: Optimized for both desktop and mobile devices.<br>
+Clear Button: Easily reset the calculator to its initial state.<br>
 
 # Technologies Used
 
-HTML: For structuring the content of the calculator.
-CSS: For styling the calculator, making it visually appealing and responsive.
-JavaScript: For implementing the calculator's functionality and interactivity.
+HTML: For structuring the content of the calculator.<br>
+CSS: For styling the calculator, making it visually appealing and responsive.<br>
+JavaScript: For implementing the calculator's functionality and interactivity.<br>
 
 # Interface
 
@@ -25,42 +25,39 @@ JavaScript: For implementing the calculator's functionality and interactivity.
 
 # Installation
 
-Clone the repository:
-Copy code
-git clone https://github.com/tapeshchavle/calculator.git
-Navigate to the project directory:
+Clone the repository:<br>
+Copy code<br>
+git clone https://github.com/tapeshchavle/calculator.git<br>
+Navigate to the project directory:<br>
 
-Copy code
-cd calculator
-Open the index.html file in your web browser:
-
-bash
-Copy code
-open index.html
+Copy code<br>
+cd calculator<br>
+Open the index.html file in your web browser:<br>
 
 # Usage
 
 Mouse Input: Click the buttons on the calculator interface to perform calculations.
-Keyboard Input: Use the keyboard to input numbers and operators.
-0-9 for numbers
-+, -, \*, / for arithmetic operations
-Enter to calculate the result
+Keyboard Input: Use the keyboard to input numbers and operators.<br>
+
+<hr>
+0-9 for numbers<br>
++, -, \*, / for arithmetic operations<br>
+Enter to calculate the result<br>
 
 clear to clear the input
-Screenshots
 
 # Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome! Please follow these steps:<br>
+Fork the repository.<br>
+Create a new branch (git checkout -b feature-branch).<br>
+Make your changes.<br>
+Commit your changes (git commit -m 'Add some feature').<br>
+Push to the branch (git push origin feature-branch).<br>
+Open a pull request. <br>
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
+# Contact
 
-Contact
 Name: Tapesh Chavle
-Email: tapeshchawl@gmail.com
-GitHub: tapeshchavle
+Email: tapeshchawl@gmail.com <br>
+GitHub: tapeshchavle<br>
